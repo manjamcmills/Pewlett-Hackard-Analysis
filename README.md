@@ -10,6 +10,7 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 •	The 3rd objective for this deliverable was to make a table (exported as retiring_titles.csv) that calculated the number of possible retires by their most recent title.  As you can see, there will be many spots to fill! 
 
 ![](pngs\retiring_titles.png)
+https://github.com/manjamcmills/Pewlett-Hackard-Analysis/blob/f73de57aaa0b0ce4c258163a73d8a260f81b749b/pngs/retiring_titles.png
 
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
 •	The main objective of this deliverable was to do a new query that finds all the employees who were born between January 1, 1965 and December 31, 1965.  This was made into the “Mentorship Eligibility table” and exported as mentorship_eligibilty.csv.
