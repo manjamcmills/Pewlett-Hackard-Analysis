@@ -2,7 +2,7 @@
 ## Overview of the analysis
 The purpose of this analysis was to analyze data for the company "Pewlett Hackard” to determine “who” might be retiring in the next few years and “how many” vacancies will need to be filled.  We were given 6 different csv files and our 1st task was to build a data base with SQL with the information on tens of thousands of employees.  From the built database, we then did queries and “joins” to solve the question on “who” might be retiring and “how many” jobs will need new employees.   We were also tasked to find out employees (by age) who are eligible to participate in a mentorship program. 
 
-![](Resources/pngs/EmployeeDB.png)
+https://github.com/manjamcmills/Pewlett-Hackard-Analysis/blob/main/pngs/EmployeeDB.png
 
 ## Results
 ### Deliverable 1: The Number of Retiring Employees by Title
