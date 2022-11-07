@@ -7,6 +7,19 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 ## Results
 ### Deliverable 1: The Number of Retiring Employees by Title
 •	The 1st objective for this deliverable was to make a table with all of the employees who were born between 1952 and 1955.  The table (exported as retirement_titles.csv) included all the employee numbers, first name, last name, title, hire date, and last day (if applicable). This data had over 133,000 entries, but some of the entries were duplicates and some had already retired.
+**SELECT emp.emp_no, 
+	emp.first_name, 
+	emp.last_name,
+	tit.title,
+	tit.from_date,
+	tit.to_date
+INTO retirement_titles
+FROM employees as emp
+INNER JOIN titles as tit
+ON (emp.emp_no = tit.emp_no)
+WHERE (emp.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+ORDER BY emp_no ASC**
+
 
 •	The 2nd objective for this deliverable was used the “distinct on” syntax to get rid of the duplicates and delete anyone who had already retired.  The new updated table (exported as  unique_titles.csv) had 72,458 entries.
 
