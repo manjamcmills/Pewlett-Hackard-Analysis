@@ -13,7 +13,7 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 •	The 2nd objective for this deliverable was used the “distinct on” syntax to get rid of the duplicates and delete anyone who had already retired.  The new updated table (exported as  unique_titles.csv) had 72,458 entries.<br>
 ![](pngs/2.png)
 
-•	The 3rd objective for this deliverable was to make a table (exported as retiring_titles.csv) that calculated the number of possible retires by their most recent title.  As you can see, there will be many spots to fill! 
+•	The 3rd objective for this deliverable was to make a table (exported as [retiring_titles.csv](https://github.com/manjamcmills/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)) that calculated the number of possible retires by their most recent title.  As you can see, there will be many spots to fill! 
 
 ![](pngs/retiring_titles.png)
 
