@@ -8,12 +8,8 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 ### Deliverable 1: The Number of Retiring Employees by Title
 •	The 1st objective for this deliverable was to make a table with all of the employees who were born between 1952 and 1955.  The table (exported as retirement_titles.csv) included all the employee numbers, first name, last name, title, hire date, and last day (if applicable). This data had over 133,000 entries, but some of the entries were duplicates and some had already retired. <br><br>
 <span style="color:blue">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	SELECT emp.emp_no, <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.first_name, <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.last_name,<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.title,<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.from_date,<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.to_date<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	SELECT emp.emp_no, emp.first_name, emp.last_name,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.title, tit.from_date, tit.to_date<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTO retirement_titles<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM employees as emp<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN titles as tit<br>
