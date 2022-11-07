@@ -19,7 +19,7 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 
 
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
-•	The main objective of this deliverable was to do a new query that finds all the employees who were born between January 1, 1965 and December 31, 1965.  This was made into the “Mentorship Eligibility table” and exported as mentorship_eligibilty.csv. <br>
+•	The main objective of this deliverable was to do a new query that finds all the employees who were born between January 1, 1965 and December 31, 1965.  This was made into the “Mentorship Eligibility table” and exported as [mentorship_eligibilty.csv](https://github.com/manjamcmills/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv). <br>
 ![](pngs/3.png)
 ## Summary
 
