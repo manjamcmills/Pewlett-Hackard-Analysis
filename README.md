@@ -6,20 +6,20 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 
 ## Results
 ### Deliverable 1: The Number of Retiring Employees by Title
-•	The 1st objective for this deliverable was to make a table with all of the employees who were born between 1952 and 1955.  The table (exported as retirement_titles.csv) included all the employee numbers, first name, last name, title, hire date, and last day (if applicable). This data had over 133,000 entries, but some of the entries were duplicates and some had already retired. /n
+•	The 1st objective for this deliverable was to make a table with all of the employees who were born between 1952 and 1955.  The table (exported as retirement_titles.csv) included all the employee numbers, first name, last name, title, hire date, and last day (if applicable). This data had over 133,000 entries, but some of the entries were duplicates and some had already retired. <br><br>
 <span style="color:blue">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	SELECT emp.emp_no, 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.first_name, 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.last_name,
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.title,
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.from_date,
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.to_date
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTO retirement_titles
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM employees as emp
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN titles as tit
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ON (emp.emp_no = tit.emp_no)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE (emp.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY emp_no ASC </span> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	SELECT emp.emp_no, <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.first_name, <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.last_name,<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.title,<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.from_date,<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tit.to_date<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTO retirement_titles<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM employees as emp<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN titles as tit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ON (emp.emp_no = tit.emp_no)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE (emp.birth_date BETWEEN '1952-01-01' AND '1955-12-31')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY emp_no ASC </span> <br><br>
 
 
 •	The 2nd objective for this deliverable was used the “distinct on” syntax to get rid of the duplicates and delete anyone who had already retired.  The new updated table (exported as  unique_titles.csv) had 72,458 entries.
