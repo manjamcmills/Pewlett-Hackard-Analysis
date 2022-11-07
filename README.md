@@ -19,8 +19,8 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 
 
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
-•	The main objective of this deliverable was to do a new query that finds all the employees who were born between January 1, 1965 and December 31, 1965.  This was made into the “Mentorship Eligibility table” and exported as mentorship_eligibilty.csv.
-
+•	The main objective of this deliverable was to do a new query that finds all the employees who were born between January 1, 1965 and December 31, 1965.  This was made into the “Mentorship Eligibility table” and exported as mentorship_eligibilty.csv. <br>
+![](pngs/3.png)
 ## Summary
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
