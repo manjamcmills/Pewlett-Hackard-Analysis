@@ -28,3 +28,7 @@ The purpose of this analysis was to analyze data for the company "Pewlett Hackar
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 •	There are 1549 employees that could possibly mentor the next generation of Pewlett Hackard employees.  This should be enough but more research needs to be done to see if these employees are up for this role as a mentor. 
+
+### Additional Queries/Tables
+* The 1st additional query I think would benefit the company is to see how many employees have been there 5 years or less.  They could also be included in some sort of mentorship program to ensure they don't quit or perform inadequately. 
+* The 2nd additional query I believe should be performed is a query on diversity to make sure that the company doesn't have any bias in their hiring efforts. Diveristy could include age, sex, race, or background.
